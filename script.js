@@ -63,3 +63,7 @@ select.addEventListener('click',(selected)=>{
   }
   dup = selected.target.value;
 })
+
+let home = function(){
+  location.reload();
+}
