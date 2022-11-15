@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheCatApi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div id = "all_content">
+      <div id="head_content">
+        <div>
+            <a id = "home" href="http://127.0.0.1:5501/project/index.html">Home</a>
+        </div>
+        <div id = "heading">The <span>Cat</span> World</div>
+        <div id ="img_container">
+          <img src="icons8-cat-footprint-50_1.png" alt="Cat Footprint Icon by Icons8">
+        </div>
+      </div>
+      <div id="about_search">
+        <div id ="about">Welcome to the Cat World. Here you can find the all breeds of Cats information here.</div>
+          <div id ="label_and_search">
+            <select text="search_box" name="select" id="select" class="form-select form-select-sm">
+              <option>Search by Breed name</option>
+            </select>
+          </div>
+      </div>
+      <div id = "cats_info" class="row row-cols-1 row-cols-xl-4 row-cols-lg-3 row-cols-md-2  g-4"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

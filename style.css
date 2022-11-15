@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: rosybrown;
+    width: 100%;
+    overflow-y: scroll;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+#head_content{
+    width: 100%;
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky;
+    padding: 0 1em;
+    background-color: #3b2923;
+    color: #9e6c5e;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1071;
+}
+#home{
+    width: 5em;
+    height: 3em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9e5e60;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+#heading{
+    font-size: xx-large;
+    font-weight: 700;
+    padding: 0.3em;
+}
+#heading span{
+    color: white;
+}
+#img_container{
+    width: 5em;
+    height: 3.5em;
+}
+img{
+    width: 100%;
+    height: 3.5em;
+}
+#about_search{
+    width: 100%;
+    height: 4em;
+    max-height: max-content;
+    padding-top: 1em;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+    background-color: rosybrown;
+    color: aliceblue;
+    font-weight: 400;
+}
+#about{
+    padding: 0.5em;
+}
+#form-select{
+    display: inline-flex;
+    justify-content: flex-start;
+}
+#cats_info{
+    margin: 0;
+    padding-bottom: 1.5em;
+    justify-content: space-around;
+    background-color:rosybrown;
+}
+.card-img, .card-img-bottom, .card-img-top {
+    width: 100%;
+    height: 16em;
+}
+.card-body{
+    background-color: #d9c5bf;
+}
+.card-title{
+    font-size: x-large;
+    color: white;
+    font-weight: 800;
+}
+.card span{
+    font-size: large;
+    color: #9e6c5e;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 550px){
+    #about_search{
+        flex-wrap: wrap;
+        height: max-content;
+        text-align: center;
+    }
+    #heading{
+        font-size: x-large;
+        font-weight: 500;
+        padding: 0.2em;
+    }
+    #home{
+        font-size: medium;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width: 830px){
+    #about_search{
+        padding-right: 0.75em;
+    }
+}
