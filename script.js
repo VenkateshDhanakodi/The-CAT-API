@@ -27,7 +27,7 @@ let create_async = async (url, key)=>{
               <h5 class="card-title">${i.name}</h5>
               <div><span>Origin &nbsp</span>${i.origin}</div>
               <div><span>Temperament &nbsp</span>${i.temperament}</div>
-              <div><span>Life Span &nbsp</span>${i.life_span}</div>
+              <div><span>Life Span &nbsp</span>${i.life_span} Years</div>
             </div>
           </div>`;
 
